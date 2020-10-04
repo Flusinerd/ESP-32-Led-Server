@@ -1,4 +1,3 @@
-#include <WiFi.h>
 void setupWifi() {
   WiFi.mode(WIFI_STA);
   Serial.printf("Connecting to %s\n", WIFISSID);
